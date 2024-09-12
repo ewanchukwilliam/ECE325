@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+/home/william/Courses/ECE325/gradletest2/.metadata/.plugins/org.eclipse.jdt.core
+3360029907.index
+2925904311.index
+859437779.index
+3842426239.index
+3833877734.index
+3550006008.index
+3310083767.index
+4013607337.index
+1953914207.index
+1871939174.index
+3731728757.index
+1865797976.index
+612864983.index
