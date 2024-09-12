@@ -4,11 +4,21 @@
 package gradletest2;
 
 public class App {
-    public String getGreeting() {
-        return "test";
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
+  public String getGreeting() { 
+		return "Hello world!"; 
+	}
+  public static void main(String[] args) {
+    System.out.println(new App().getGreeting());
+    Racecar tempcar = new Racecar();
+    tempcar.speedCar();
+    tempcar.setspeed(200);
+    tempcar.speedCar();
+    tempcar.setspeed(1000);
+    tempcar.speedCar();
+		System.out.println(tempcar.getspeed());
+		System.out.println(new App().giveMeNumber());
+  }
+	public int giveMeNumber() {
+		return Integer.MAX_VALUE;
+	}
 }

@@ -39,6 +39,15 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
+tasks.named<Jar>("jar"){
+	manifest {
+		attributes["Main-Class"] = "gradletest2"
+	}
+}
+tasks.register("cleanall"){
+	dependsOn("clean")
+}
+
 tasks.register("BuildandTest") {
     dependsOn("build")
     doLast {
