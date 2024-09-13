@@ -23,8 +23,7 @@ public class Game {
 			if(this.gameWon) break;
     }
   }
-	public void abcdefgh() {
-		System.out.println("buttholes");
-		
+	public void javanew() {
+		System.out.println("this is a testing message");
 	}
 }
