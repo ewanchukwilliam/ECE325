@@ -14,7 +14,6 @@ public class App {
     Game runGame = new Game();
     runGame.startGame(player1, player2, player3);
 		runGame.startGame(player1, player2, player3);
-		runGame.javanew();
 		
 
   }
