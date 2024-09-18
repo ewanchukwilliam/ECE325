@@ -1,0 +1,3701 @@
+!SESSION 2024-09-18 14:48:01.368 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/william/Courses/ECE325/src
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:03.047
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:03.254
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:03.293
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:03.296
+!MESSAGE Initializing Java Language Server 1.38.0.202408011337
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:03.298
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.322
+!MESSAGE ProjectRegistryRefreshJob finished 1023ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.352
+!MESSAGE Started org.eclipse.buildship.core 30ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.372
+!MESSAGE Uninstalled reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.376
+!MESSAGE Installed reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.377
+!MESSAGE Uninstalled reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.379
+!MESSAGE Installed reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.383
+!MESSAGE Refresh the bundles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.424
+!MESSAGE Finished Refreshing bundles
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:04.426
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:173)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:113)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:283)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Contains: Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.runner-jar-with-dependencies.jar
+Contains: Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/jacocoagent.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:04.427
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:04.427
+!MESSAGE Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:04.427
+!MESSAGE Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/jacocoagent.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.452
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.453
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.454
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.455
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.456
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.456
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.477
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.487
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:04.591
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:05.339
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/OnlineLab0, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:06.902
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/sept18, it must be synchronized
+
+!ENTRY org.eclipse.buildship.core 4 7 2024-09-18 14:48:07.248
+!MESSAGE Synchronize project sept18 failed due to an unexpected error.
+!STACK 0
+java.lang.IllegalStateException: Workspace already contains a project with name app.
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at org.eclipse.buildship.core.internal.workspace.DefaultWorkspaceOperations.includeProject(DefaultWorkspaceOperations.java:138)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:188)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:177)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:130)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:85)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:82)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:64)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:238)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:197)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:105)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:86)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:463)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:339)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:223)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:277)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:07.257
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/gradleExample, it must be synchronized
+
+!ENTRY org.eclipse.buildship.core 4 7 2024-09-18 14:48:07.719
+!MESSAGE Synchronize project gradleExample failed due to an unexpected error.
+!STACK 0
+java.lang.IllegalStateException: Workspace already contains a project with name app.
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at org.eclipse.buildship.core.internal.workspace.DefaultWorkspaceOperations.includeProject(DefaultWorkspaceOperations.java:138)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:188)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:177)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:130)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:85)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:82)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:64)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:238)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:197)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:105)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:86)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:463)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:339)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:223)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:277)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:07.729
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/sept9, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:08.028
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/testsept11, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:08.260
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/sept13, it must be synchronized
+
+!ENTRY org.eclipse.buildship.core 4 7 2024-09-18 14:48:08.546
+!MESSAGE Synchronize project sept13 failed due to an unexpected error.
+!STACK 0
+java.lang.IllegalStateException: Workspace already contains a project with name app.
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at org.eclipse.buildship.core.internal.workspace.DefaultWorkspaceOperations.includeProject(DefaultWorkspaceOperations.java:138)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.addExistingEclipseProjectToWorkspace(SynchronizeGradleBuildOperation.java:188)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeNonWorkspaceProject(SynchronizeGradleBuildOperation.java:177)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeGradleProjectWithWorkspaceProject(SynchronizeGradleBuildOperation.java:130)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation$1.run(SynchronizeGradleBuildOperation.java:85)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2471)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.synchronizeProjectsWithWorkspace(SynchronizeGradleBuildOperation.java:82)
+	at org.eclipse.buildship.core.internal.workspace.SynchronizeGradleBuildOperation.run(SynchronizeGradleBuildOperation.java:64)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.runInToolingApi(DefaultGradleBuild.java:238)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager$WorkspaceRunnableAdapter.run(DefaultToolingApiOperationManager.java:58)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2476)
+	at org.eclipse.buildship.core.internal.operation.DefaultToolingApiOperationManager.run(DefaultToolingApiOperationManager.java:39)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild$SynchronizeOperation.run(DefaultGradleBuild.java:197)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:105)
+	at org.eclipse.buildship.core.internal.DefaultGradleBuild.synchronize(DefaultGradleBuild.java:86)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.startSynchronization(GradleProjectImporter.java:463)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importDir(GradleProjectImporter.java:339)
+	at org.eclipse.jdt.ls.core.internal.managers.GradleProjectImporter.importToWorkspace(GradleProjectImporter.java:223)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:164)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:126)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:277)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:08.553
+!MESSAGE No previous Gradle project at /home/william/Courses/ECE325/gradletest2, it must be synchronized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:09.055
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:09.087
+!MESSAGE Workspace initialized in 4609ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:09.098
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:09.131
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1726692484609)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:09.508
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:10.647
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:10.695
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY java-debug 1 0 2024-09-18 14:48:10.703
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.069
+!MESSAGE Error occured while building workspace. Details: 
+ message: Workspace already contains a project with name app.; code: 0; resource: /home/william/Courses/ECE325/gradleExample;
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/11.container-with-most-water.java; line: 2
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/121.best-time-to-buy-and-sell-stock.java; line: 2
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/141.linked-list-cycle.java; line: 13
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/143.reorder-list.java; line: 12
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/19.remove-nth-node-from-end-of-list.java; line: 12
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/206.reverse-linked-list.java; line: 12
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/21.merge-two-sorted-lists.java; line: 12
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/217.contains-duplicate.java; line: 5
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/23.merge-k-sorted-lists.java; line: 12
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/238.product-of-array-except-self.java; line: 2
+ message: The type Solution is already defined; code: 16777539; resource: /home/william/.local/share/nvim/leetcode/53.maximum-subarray.java; line: 2
+ message: Workspace already contains a project with name app.; code: 0; resource: /home/william/Courses/ECE325/sept13;
+ message: Workspace already contains a project with name app.; code: 0; resource: /home/william/Courses/ECE325/sept18;
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.085
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.086
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.093
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/21.merge-two-sorted-lists.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '21.merge-two-sorted-lists' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.093
+!MESSAGE '21.merge-two-sorted-lists' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.098
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/143.reorder-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '143.reorder-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.098
+!MESSAGE '143.reorder-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.100
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/121.best-time-to-buy-and-sell-stock.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '121.best-time-to-buy-and-sell-stock' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.100
+!MESSAGE '121.best-time-to-buy-and-sell-stock' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.102
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/53.maximum-subarray.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '53.maximum-subarray' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.102
+!MESSAGE '53.maximum-subarray' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.105
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/141.linked-list-cycle.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '141.linked-list-cycle' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.105
+!MESSAGE '141.linked-list-cycle' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.108
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/238.product-of-array-except-self.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '238.product-of-array-except-self' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.108
+!MESSAGE '238.product-of-array-except-self' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.110
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/217.contains-duplicate.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '217.contains-duplicate' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.110
+!MESSAGE '217.contains-duplicate' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.112
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/23.merge-k-sorted-lists.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '23.merge-k-sorted-lists' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.112
+!MESSAGE '23.merge-k-sorted-lists' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.114
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/19.remove-nth-node-from-end-of-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '19.remove-nth-node-from-end-of-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.114
+!MESSAGE '19.remove-nth-node-from-end-of-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.118
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/206.reverse-linked-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '206.reverse-linked-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.118
+!MESSAGE '206.reverse-linked-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:11.120
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/11.container-with-most-water.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '11.container-with-most-water' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:48:11.120
+!MESSAGE '11.container-with-most-water' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.361
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.364
+!MESSAGE The value of the local variable generator is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.366
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:11.367
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:48:15.082
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:48:15.083
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:15.083
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:48:15.083
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:15.084
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:48:15.084
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:22.652
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:23.074
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:23.074
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:23.075
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:48:23.075
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:39.923
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.388
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.388
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.388
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.389
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.546
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.548
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:40.745
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:41.162
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:41.163
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:41.163
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:41.163
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:41.925
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.079
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.228
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.314
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.365
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.827
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.828
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.828
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.829
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.913
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:42.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.251
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.401
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.815
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.816
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.816
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:43.817
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:46.713
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:47.128
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:47.129
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:47.130
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:47.130
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:49.231
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:49.519
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:49.569
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:49.718
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:49.869
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.330
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.331
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.332
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.332
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.750
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:50.900
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.207
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.354
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.503
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.967
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.968
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.968
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:51.968
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:53.396
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:53.396
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:53.652
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.115
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.116
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.116
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.117
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.407
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.608
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.757
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:54.986
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.104
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.305
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.455
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.627
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.707
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:55.757
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.221
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.222
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.222
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.223
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.574
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.627
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:56.763
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.226
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.227
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.227
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.228
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.312
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.413
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.825
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.826
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.826
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:49:57.826
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:30.476
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:30.956
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:31.108
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:31.570
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:31.571
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:31.571
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:31.572
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:33.468
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:33.973
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:34.127
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:34.538
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:34.539
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:34.539
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:34.540
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:36.434
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.065
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.169
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.630
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.630
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.630
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:37.631
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:39.852
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:40.633
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:40.788
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:41.200
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:41.200
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:41.200
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:41.201
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:43.408
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:43.418
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:43.472
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:43.483
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-09-18 14:50:47.596 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en
+Command-line arguments:  -data /home/william/Courses/ECE325/src
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:49.431
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:49.659
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:49.670
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:49.672
+!MESSAGE Initializing Java Language Server 1.38.0.202408011337
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:49.673
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.526
+!MESSAGE ProjectRegistryRefreshJob finished 853ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.598
+!MESSAGE Started org.eclipse.buildship.core 71ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.618
+!MESSAGE Uninstalled reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.623
+!MESSAGE Installed reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.625
+!MESSAGE Uninstalled reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.628
+!MESSAGE Installed reference:file:/home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.634
+!MESSAGE Refresh the bundles
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.678
+!MESSAGE Finished Refreshing bundles
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:50.679
+!MESSAGE Failed to load extension bundles 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:173)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:113)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:283)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Contains: Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.runner-jar-with-dependencies.jar
+Contains: Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/jacocoagent.jar
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:50.680
+!MESSAGE Load bundle list
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:50.680
+!MESSAGE Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/com.microsoft.java.test.runner-jar-with-dependencies.jar
+!SUBENTRY 2 org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:50.681
+!MESSAGE Failed to get bundleInfo for bundle from /home/william/.local/share/nvim/mason/share/java-test/jacocoagent.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.703
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.703
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.704
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.704
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.704
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.705
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.722
+!MESSAGE RepositoryRegistryUpdateJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.732
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:50.882
+!MESSAGE Importing Gradle project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:51.962
+!MESSAGE Workspace initialized in 1240ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:51.973
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.189
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY java-debug 1 0 2024-09-18 14:50:53.208
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.218
+!MESSAGE Command _java.reloadBundles.command not supported on client
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.234
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.235
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.236
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.253
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/21.merge-two-sorted-lists.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '21.merge-two-sorted-lists' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.253
+!MESSAGE '21.merge-two-sorted-lists' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.266
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/143.reorder-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '143.reorder-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.266
+!MESSAGE '143.reorder-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.270
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/121.best-time-to-buy-and-sell-stock.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '121.best-time-to-buy-and-sell-stock' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.271
+!MESSAGE '121.best-time-to-buy-and-sell-stock' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.276
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/53.maximum-subarray.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '53.maximum-subarray' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.276
+!MESSAGE '53.maximum-subarray' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.283
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/141.linked-list-cycle.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '141.linked-list-cycle' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.283
+!MESSAGE '141.linked-list-cycle' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.287
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/238.product-of-array-except-self.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '238.product-of-array-except-self' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.288
+!MESSAGE '238.product-of-array-except-self' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.292
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/217.contains-duplicate.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '217.contains-duplicate' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.292
+!MESSAGE '217.contains-duplicate' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.296
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/23.merge-k-sorted-lists.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '23.merge-k-sorted-lists' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.296
+!MESSAGE '23.merge-k-sorted-lists' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.304
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/19.remove-nth-node-from-end-of-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '19.remove-nth-node-from-end-of-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.304
+!MESSAGE '19.remove-nth-node-from-end-of-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.317
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/206.reverse-linked-list.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '206.reverse-linked-list' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.317
+!MESSAGE '206.reverse-linked-list' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.320
+!MESSAGE Failed to publish diagnostics for file:///home/william/.local/share/nvim/leetcode/11.container-with-most-water.java
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '11.container-with-most-water' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:275)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:332)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:254)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:334)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-09-18 14:50:53.320
+!MESSAGE '11.container-with-most-water' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:50:53.480
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:50:53.480
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:50:53.481
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.482
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.482
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.484
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.microsoft.java.debug.plugin.internal.ResolveJavaExecutableHandler.resolveJavaExecutable(ResolveJavaExecutableHandler.java:52)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:92)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY java-debug 4 0 2024-09-18 14:50:53.521
+!MESSAGE Failed to resolve classpath: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+!STACK 1
+org.eclipse.core.runtime.CoreException: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1855)
+	at org.eclipse.jdt.launching.JavaRuntime.getClasspathProvider(JavaRuntime.java:1181)
+	at org.eclipse.jdt.launching.JavaRuntime.computeUnresolvedRuntimeClasspath(JavaRuntime.java:1659)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:231)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:211)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2024-09-18 14:50:53.521
+!MESSAGE Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-09-18 14:50:53.528
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1855)
+	at org.eclipse.jdt.launching.JavaRuntime.getClasspathProvider(JavaRuntime.java:1181)
+	at org.eclipse.jdt.launching.JavaRuntime.computeUnresolvedRuntimeClasspath(JavaRuntime.java:1659)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:231)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:211)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-09-18 14:50:53.530
+!MESSAGE Error in calling delegate command handler
+!STACK 0
+java.lang.Exception: Failed to resolve classpath: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:79)
+	at com.microsoft.java.debug.plugin.internal.JavaDebugDelegateCommandHandler.executeCommand(JavaDebugDelegateCommandHandler.java:62)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:606)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.core.runtime.CoreException: Referenced classpath provider does not exist: org.eclipse.buildship.core.classpathprovider
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1870)
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1855)
+	at org.eclipse.jdt.launching.JavaRuntime.getClasspathProvider(JavaRuntime.java:1181)
+	at org.eclipse.jdt.launching.JavaRuntime.computeUnresolvedRuntimeClasspath(JavaRuntime.java:1659)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:231)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:211)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.computeClassPath(ResolveClasspathsHandler.java:165)
+	at com.microsoft.java.debug.plugin.internal.ResolveClasspathsHandler.resolveClasspaths(ResolveClasspathsHandler.java:76)
+	... 13 more
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.922
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.924
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.925
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:53.927
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:56.736
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:57.812
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:57.882
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.300
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.300
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.300
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.301
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.546
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.960
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.960
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.961
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:50:58.962
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:00.364
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:00.794
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:01.260
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:01.261
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:01.261
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:01.262
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:04.909
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:05.063
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:05.395
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:05.551
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:05.652
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:05.798
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.212
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.212
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.213
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.213
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.558
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.711
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:06.865
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.069
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.375
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.478
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.656
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.810
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:07.959
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:08.214
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:08.362
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:08.735
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:08.889
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:09.350
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:09.350
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:09.351
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:09.351
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:12.910
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:13.114
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:13.527
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:13.527
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:13.528
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:13.528
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:17.559
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:17.598
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:17.753
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:17.851
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.036
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.240
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.655
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.655
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.656
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.693
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.868
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:18.889
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:19.301
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:19.302
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:19.302
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:19.302
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:19.937
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.088
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.203
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.236
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.447
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.493
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.909
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.909
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.909
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:20.910
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.056
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.209
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.357
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.459
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.874
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.874
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.875
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:21.875
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.098
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.105
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.510
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.511
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.511
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:22.512
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.370
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.419
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.886
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.886
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.887
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:23.947
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.120
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.533
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.534
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.534
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.534
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.642
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.714
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:24.863
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:25.265
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:25.772
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.183
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.183
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.184
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.184
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.470
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:26.618
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.030
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.031
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.031
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.031
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.933
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:27.945
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:28.358
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:28.359
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:28.359
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:28.360
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:29.307
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:29.619
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:30.032
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:30.032
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:30.032
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:30.033
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:31.711
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:31.860
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:32.319
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:32.320
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:32.320
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:32.320
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.241
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.267
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.731
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.731
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.732
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:33.732
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.344
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.415
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.875
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.876
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.876
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:34.876
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:35.187
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:35.598
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:35.598
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:35.599
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:35.599
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:58.550
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.010
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.011
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.011
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.012
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.441
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.470
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.933
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.933
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.934
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:51:59.934
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.148
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.367
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.410
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.552
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.659
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:00.811
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.226
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.226
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.226
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.227
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.569
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.716
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.924
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:01.950
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.336
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.337
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.355
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.355
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.811
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:02.967
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.069
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.482
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.482
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.482
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.483
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:03.884
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:04.345
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:04.346
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:04.346
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:04.346
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:04.347
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:12.788
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:12.800
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:13.212
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:13.212
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:13.213
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:13.213
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:13.213
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:14.661
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.064
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.245
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.712
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.712
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.712
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:15.713
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:16.288
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:16.700
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:16.701
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:16.701
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:16.701
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:17.502
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:17.546
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:17.695
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:17.795
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:17.949
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.358
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.358
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.359
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.359
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.420
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.648
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.871
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:18.905
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.317
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.317
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.317
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.318
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.472
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.934
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.934
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.934
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:19.935
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:20.981
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:21.439
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:21.439
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:21.440
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:21.440
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:21.440
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.101
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.515
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.515
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.515
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.516
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:29.516
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:30.953
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:31.414
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:31.415
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:31.415
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:31.415
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:31.416
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.420
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.831
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.832
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.832
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.832
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:32.833
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.231
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.263
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.426
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.469
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.527
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.574
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.674
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:33.826
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.238
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.238
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.240
+!MESSAGE Duplicate local variable generator is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.240
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.241
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.287
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.437
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.852
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.852
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.853
+!MESSAGE Duplicate local variable generator is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.853
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:34.853
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.214
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.274
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.429
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.840
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.841
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.841
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:35.841
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.326
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.360
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.773
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.773
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.774
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.774
+!MESSAGE 7 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:36.774
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:37.613
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:37.616
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:37.810
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.273
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.273
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.273
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.274
+!MESSAGE 7 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.274
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.492
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:38.895
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.122
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.298
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.492
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.906
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.906
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.906
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:39.907
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.371
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.431
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.843
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.843
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.843
+!MESSAGE Duplicate local variable generator is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.843
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.844
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.970
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:40.974
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:41.361
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:41.648
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.111
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.111
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.111
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.112
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.112
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.228
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.379
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.529
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:42.784
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:43.169
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:43.570
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:43.628
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.087
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.087
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.088
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.088
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.088
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.089
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.296
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.445
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.854
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.855
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.874
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.875
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.875
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:44.876
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:45.901
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.101
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.564
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.564
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.565
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.565
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.565
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:46.566
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.227
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.282
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.380
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.528
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.783
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.877
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:47.932
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.296
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.337
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.559
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.972
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.972
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.972
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.972
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.972
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:48.973
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.140
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.243
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.390
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.803
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.803
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.803
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.804
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.804
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:49.804
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:51.649
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.062
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.063
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.063
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.063
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.064
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.064
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.147
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.156
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.615
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.616
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.616
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.616
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.616
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.617
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.703
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.746
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.947
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:52.995
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:53.333
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:53.430
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:53.647
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:53.832
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:53.997
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.145
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.256
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.286
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.697
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.698
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.698
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.698
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.703
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.809
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:54.854
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:55.314
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:55.514
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:55.667
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:55.727
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:55.786
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.008
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.411
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.872
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.873
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.874
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.875
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.875
+!MESSAGE 6 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:56.875
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:57.176
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:57.498
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:57.598
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.006
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.007
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.007
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.007
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.007
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.008
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.096
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.150
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.396
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.798
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:58.949
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:59.179
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:59.441
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:59.581
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:59.743
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:52:59.895
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.041
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.451
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.452
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.452
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.452
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.452
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.452
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:00.622
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.082
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.082
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.083
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.083
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.083
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.083
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.153
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.209
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.391
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.446
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.549
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.605
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:01.757
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.007
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.415
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.416
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.416
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.416
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.416
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:02.417
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:03.999
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.458
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.459
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.459
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.459
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.459
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:04.459
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.501
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.911
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.912
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.912
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.912
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.912
+!MESSAGE 5 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:06.912
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.100
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.563
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.563
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.565
+!MESSAGE Duplicate local variable args is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.565
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.565
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:07.566
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:11.663
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.121
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.122
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.122
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.122
+!MESSAGE 4 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.122
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.416
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.470
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.932
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.933
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.933
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.933
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:12.933
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:13.360
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:13.557
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:13.653
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:13.958
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.076
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.228
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.439
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.849
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.850
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.850
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.850
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:14.850
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:15.694
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.056
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.097
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.263
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.415
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.818
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:16.967
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.428
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.429
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.429
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.429
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.430
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.546
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:17.727
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.137
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.137
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.157
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.157
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.157
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:18.649
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:19.108
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:19.108
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:19.108
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:19.109
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:19.109
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:20.961
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:21.421
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:21.421
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:21.421
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:21.421
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:21.422
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.130
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.409
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.450
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.499
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.533
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.569
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.571
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.669
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.715
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:22.867
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:23.330
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:23.330
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:23.331
+!MESSAGE The static method main(String[]) from the type BandNameGenerator should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:23.331
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:53:23.331
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:17.483
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:17.943
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:17.944
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:17.944
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:17.944
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:18.574
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:18.619
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:18.956
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:18.997
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:19.456
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:19.457
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:19.457
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:19.457
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.165
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.236
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.380
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.790
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.790
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.790
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:20.791
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.339
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.538
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.950
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.950
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.950
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:25.950
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:26.626
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:26.679
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:27.141
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:27.142
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:27.142
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:27.142
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:32.465
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:32.517
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:32.695
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:32.871
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.022
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.065
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.324
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.369
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.371
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.588
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.635
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:33.856
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:34.267
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:34.267
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:34.267
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:34.267
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:35.205
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:35.613
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:35.614
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:35.614
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:35.614
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:36.244
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:36.703
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:36.703
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:36.703
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:36.703
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:37.408
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:37.815
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:37.815
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:37.815
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:37.816
+!MESSAGE Validated 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:39.782
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:40.195
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:40.195
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:40.195
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:40.195
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:42.101
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:42.509
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:42.510
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:42.510
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:54:42.510
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:04.498
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:04.540
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:04.999
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:04.999
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:04.999
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.000
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.239
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.298
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.556
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.600
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.677
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.679
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.876
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:05.998
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.399
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.518
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.743
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.764
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.812
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.838
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:06.998
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.005
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.155
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.307
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.766
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.767
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.767
+!MESSAGE 3 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:07.767
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:08.671
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:08.821
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:09.231
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:09.232
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:09.232
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:09.232
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:17.990
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.046
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.180
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.235
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.385
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.631
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.636
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.782
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.837
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:18.986
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:19.250
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:19.306
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:19.415
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:19.471
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:19.619
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.008
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.021
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.169
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.226
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.374
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.836
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.836
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.837
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:20.837
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:23.395
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:23.449
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:23.569
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:23.626
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:23.777
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.024
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.079
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.185
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.240
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.338
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.561
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.616
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.725
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.740
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:24.927
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.047
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.104
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.202
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.256
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.406
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.819
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.819
+!MESSAGE The declared package "" does not match the expected package "ece325.labs.lab1" is of type PackageIsNotExpectedPackage
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.819
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-18 14:55:25.820
+!MESSAGE Validated 1. Took 12 ms
