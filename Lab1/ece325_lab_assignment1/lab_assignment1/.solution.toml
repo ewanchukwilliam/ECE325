@@ -1,0 +1,7 @@
+[ENTRY POINT CONFIG]
+entry_point="./src/ece325/labs/lab1/BandNameGenerator.java"
+output="./bin/ece325/labs/lab1/BandNameGenerator"
+arguments= ""
+
+[SOLUTION]
+exeutable="./bin/ece325/labs/lab1/BandNameGenerator.*"
