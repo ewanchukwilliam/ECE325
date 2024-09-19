@@ -1,7 +1,0 @@
-[Compile With Main]
-entry_point = "./src/ece325/labs/lab1/Main.java"
-output = "./src/bin/ece325/labs/lab1/Main.jar"
-arguments = ""
-
-[SOLUTION]
-executable = "./src/bin/ece325/labs/lab1/Main.jar"
