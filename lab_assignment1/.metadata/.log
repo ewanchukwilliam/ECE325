@@ -4733,3 +4733,15 @@ Contains: Failed to get bundleInfo for bundle from /home/william/.local/share/nv
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-19 14:51:18.559
 !MESSAGE Validated 1. Took 71 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-19 14:52:09.903
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-19 14:52:09.908
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-19 14:52:09.976
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-09-19 14:52:09.982
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
