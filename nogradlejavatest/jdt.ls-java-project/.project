@@ -18,7 +18,12 @@
 		<link>
 			<name>src/Car.java</name>
 			<type>1</type>
-			<location>//home/william/Courses/ECE325/sept25/Car.java</location>
+			<location>/home/william/Courses/ECE325/sept25/Car.java</location>
+		</link>
+		<link>
+			<name>src/ExceptionExample.java</name>
+			<type>1</type>
+			<location>//home/william/Courses/ECE325/oct9th/ExceptionExample.java</location>
 		</link>
 		<link>
 			<name>src/Main.java</name>
