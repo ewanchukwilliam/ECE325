@@ -23,7 +23,7 @@
 		<link>
 			<name>src/ExceptionExample.java</name>
 			<type>1</type>
-			<location>//home/william/Courses/ECE325/oct9th/ExceptionExample.java</location>
+			<location>/home/william/Courses/ECE325/oct9th/ExceptionExample.java</location>
 		</link>
 		<link>
 			<name>src/Main.java</name>
@@ -39,6 +39,31 @@
 			<name>src/ece325/labs/lab1/Main.java</name>
 			<type>1</type>
 			<location>/home/william/Courses/ECE325/Lab1/ece325_lab_assignment1/lab_assignment1/src/ece325/labs/lab1/Main.java</location>
+		</link>
+		<link>
+			<name>src/ece325/labs/lab2/EquipmentInventory.java</name>
+			<type>1</type>
+			<location>/home/william/Courses/ECE325/Lab2/lab2/src/ece325/labs/lab2/EquipmentInventory.java</location>
+		</link>
+		<link>
+			<name>src/ece325/labs/lab3/AverageRating.java</name>
+			<type>1</type>
+			<location>/home/william/Courses/ECE325/lab3/ece325_lab_assignment3/lab_assignment3/src/ece325/labs/lab3/AverageRating.java</location>
+		</link>
+		<link>
+			<name>src/ece325/labs/lab3/Song.java</name>
+			<type>1</type>
+			<location>/home/william/Courses/ECE325/lab3/ece325_lab_assignment3/lab_assignment3/src/ece325/labs/lab3/Song.java</location>
+		</link>
+		<link>
+			<name>src/ece325/labs/lab3/SongCollection.java</name>
+			<type>1</type>
+			<location>/home/william/Courses/ECE325/lab3/ece325_lab_assignment3/lab_assignment3/src/ece325/labs/lab3/SongCollection.java</location>
+		</link>
+		<link>
+			<name>src/ece325/labs/lab3/SongLoader.java</name>
+			<type>1</type>
+			<location>/home/william/Courses/ECE325/lab3/ece325_lab_assignment3/lab_assignment3/src/ece325/labs/lab3/SongLoader.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>
