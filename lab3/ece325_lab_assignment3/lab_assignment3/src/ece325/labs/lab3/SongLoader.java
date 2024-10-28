@@ -52,8 +52,7 @@ public class SongLoader {
    * @return
    * @throws InvalidSongFormatException
    */
-  public static Song parseSong(String songString)
-      throws InvalidSongFormatException {
+  public static Song parseSong(String songString) throws InvalidSongFormatException {
     String[] parts = songString.split(";");
     if (parts.length != 3) {
       throw new InvalidSongFormatException(

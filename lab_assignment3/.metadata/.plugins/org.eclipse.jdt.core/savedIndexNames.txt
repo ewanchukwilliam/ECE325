@@ -23,7 +23,6 @@ INDEX VERSION 1.134+/home/william/Courses/ECE325/lab_assignment3/.metadata/.plug
 3550006008.index
 3252181242.index
 4118837723.index
-2606965841.index
 3731728757.index
 1482735028.index
 612864983.index
@@ -31,4 +30,3 @@ INDEX VERSION 1.134+/home/william/Courses/ECE325/lab_assignment3/.metadata/.plug
 2372293721.index
 2949097923.index
 2683585195.index
-3842426239.index
