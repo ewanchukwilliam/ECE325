@@ -3,13 +3,13 @@ package ece325.labs.lab4;
 /**
  * This class represents a Song. A Song has a title and an average rating.
  * You are not allowed to change the code that is in between the indications, but you are allowed to add
- * code before and after the indicate lines.
+ * code before and after the indicated lines.
  * 
  * @author Cor-Paul Bezemer
  *
  */
 public class Song ... {
-	// not allowe to change anything after this (until the next marker which says you can add code again)
+	// not allowed to change anything after this (until the next marker which says you can add code again)
 	private String title;
 	private AverageRating rating;
 	
