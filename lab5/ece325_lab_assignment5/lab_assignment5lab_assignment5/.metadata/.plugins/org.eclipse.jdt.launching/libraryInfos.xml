@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
     <libraryInfo home="/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home" version="17.0.13"/>
-    <libraryInfo home="/Library/Java/JavaVirtualMachines/openjdk-17.jdk/Contents/Home" version="17.0.13"/>
+    <libraryInfo home="/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home" version="23.0.1"/>
+    <libraryInfo home="/opt/homebrew/Cellar/openjdk/23.0.1/libexec/openjdk.jdk/Contents/Home" version="23.0.1"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home" version="11.0.25"/>
     <libraryInfo home="/opt/homebrew/Cellar/openjdk@17/17.0.13" version="17.0.13">
         <bootpath>

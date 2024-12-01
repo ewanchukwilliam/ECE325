@@ -1,4 +1,4 @@
-package ece325.lab.assignment5;
+// package ece325.lab.assignment5;
 
 public class Salary {
 	
@@ -20,27 +20,56 @@ public class Salary {
 	 *                     salary period (in percentage).
 	 * @return the amount of pay a band member will get (in dollars)
 	 */
-	public static Double pay(Double salary, Double snacksAmount, Integer bonus) {
-		// Check for null parameters
+
+
+    public static Double pay(Double salary, Double snacksAmount, Integer bonus) {
+        validateInputs(salary, snacksAmount, bonus);
+        return calculateNetPay(salary, snacksAmount, bonus);
+    }
+
+    private static void validateInputs(Double salary, Double snacksAmount, Integer bonus) {
+        // Null check
         if (salary == null || snacksAmount == null || bonus == null) {
-            throw new IllegalArgumentException("Parameters cannot be null");
+            throw new NullPointerException("Parameters cannot be null: salary=" + salary + ", snacksAmount=" + snacksAmount + ", bonus=" + bonus);
         }
-        
+
+        // Type checking, already ensured by method signature
+
         // Check for negative values
         if (salary < 0 || snacksAmount < 0 || bonus < 0) {
-            throw new IllegalArgumentException("Parameters cannot be negative");
+            throw new IllegalArgumentException("Parameters cannot be negative: salary=" + salary + ", snacksAmount=" + snacksAmount + ", bonus=" + bonus);
         }
-        
-        // Calculate net salary after snacks
-        double netSalary = salary - snacksAmount;
-        
-        // If net salary is negative or zero, return 0
+
+        // Maximum salary check
+        if (salary > 1000) {
+            throw new IllegalArgumentException("Salary cannot be greater than 1000: salary=" + salary);
+        }
+
+        // Snacks amount cannot be greater than salary
+        if (snacksAmount > salary) {
+            throw new IllegalArgumentException("Snacks amount cannot be greater than salary: snacksAmount=" + snacksAmount);
+        }
+
+        // Valid range for bonus
+        if (bonus < 0 || bonus > 10) {
+            throw new IllegalArgumentException("Bonus must be between 0 and 10, inclusive: bonus=" + bonus);
+        }
+    }
+		private static void checkOutput(Double output){
+			if( !(output instanceof Double) || output < 0 || output > 1010 || output == null){
+        throw new IllegalStateException("Calculated pay is invalid: " + output);
+			}
+		}
+
+    private static Double calculateNetPay(Double salary, Double snacksAmount, Integer bonus) {
+        // Calculate net pay
+        Double netSalary = salary - snacksAmount;
         if (netSalary <= 0) {
             return 0.0;
         }
-        
-        // Calculate final pay with bonus
-        return netSalary + (netSalary * bonus / 100.0);
-		//return (salary - snacksAmount) * bonus;
-	}
+				Double takehome = netSalary + (netSalary * bonus / 100);
+				checkOutput(takehome);
+        return takehome;
+    }
 }
+
