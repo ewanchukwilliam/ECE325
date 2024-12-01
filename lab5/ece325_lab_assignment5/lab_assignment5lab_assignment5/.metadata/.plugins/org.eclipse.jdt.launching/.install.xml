@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dirs>
+    <entry loc="/opt/homebrew/Cellar/openjdk@17/17.0.13/libexec/openjdk.jdk/Contents/Home" stamp="1728568919000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/openjdk-17.jdk/Contents/Home" stamp="1728568919000"/>
+    <entry loc="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home" stamp="1728519147000"/>
+    <entry loc="/opt/homebrew/Cellar/openjdk@17/17.0.13" stamp="1731290597150"/>
+</dirs>

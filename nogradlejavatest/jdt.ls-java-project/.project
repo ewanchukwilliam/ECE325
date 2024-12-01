@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/Main.java</name>
-			<type>1</type>
-			<location>//Users/ewanchukwilliam/School/ECE325/lab4/ece325_lab_assignment4/lab_assignment4/src/ece325/labs/lab4/Main.java</location>
-		</link>
-	</linkedResources>
 </projectDescription>

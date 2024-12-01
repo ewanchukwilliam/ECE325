@@ -1,0 +1,19 @@
+[Lab5Main]
+entry_point = "src/ece325/lab/assignment5/*"
+output = "bin/*"
+classpath = "bin/*"
+arguments = "-Xlint:all"
+
+[Lab5Test]
+entry_point = "lib/*.jar"
+output = "bin/jar/*.jar"
+classpath = "bin/jar.*.jar"
+arguments = "-Xlint:all"
+
+[SOLUTION]
+executables = [
+    "javac -cp src/ece325/lab/assignment5/* ece325.lab.assignment5.Main",
+    "javac -cp lib/* org.junit.platform.console.ConsoleLauncher --scan-classpath"
+]
+output = "bin/"
+classpath = "bin/"
