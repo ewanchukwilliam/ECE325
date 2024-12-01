@@ -56,7 +56,7 @@ public class Salary {
         }
     }
 		private static void checkOutput(Double output){
-			if( !(output instanceof Double) || output < 0 || output > 1010 || output == null){
+			if( !(output instanceof Double) || output < 0 || output > 1100 || output == null){
         throw new IllegalStateException("Calculated pay is invalid: " + output);
 			}
 		}
