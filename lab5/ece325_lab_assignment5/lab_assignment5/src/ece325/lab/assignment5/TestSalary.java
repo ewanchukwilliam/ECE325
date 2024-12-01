@@ -2,13 +2,9 @@ package ece325.lab.assignment5;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import org.junit.jupiter.api.Test;
 
-
 public class TestSalary {
-	
-
     @Test
     public void testNormalSalaryPayment() {
         assertEquals(55.0, Salary.pay(100.0, 50.0, 10), 0.001);
@@ -24,6 +20,8 @@ public class TestSalary {
         assertEquals(50.0, Salary.pay(100.0, 50.0, 0), 0.001);
     }
 
+     
+    
     @Test
     public void testExactSalarySpentOnSnacks() {
         assertEquals(0.0, Salary.pay(100.0, 100.0, 0), 0.001);

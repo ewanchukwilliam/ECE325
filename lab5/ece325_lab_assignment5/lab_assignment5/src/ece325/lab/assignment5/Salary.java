@@ -20,24 +20,27 @@ public class Salary {
 	 *                     salary period (in percentage).
 	 * @return the amount of pay a band member will get (in dollars)
 	 */
-
-  public static Double pay(Double salary, Double snacksAmount, Integer bonus) {
-      if (salary == null || snacksAmount == null || bonus == null) {
-          throw new IllegalArgumentException("Parameters cannot be null");
-      }
-      if (salary < 0 || salary > 1000) {
-          throw new IllegalArgumentException("Salary must be between 0 and 1000");
-      }
-      if (snacksAmount < 0 || snacksAmount > salary) {
-          throw new IllegalArgumentException("Snacks amount must be between 0 and salary");
-      }
-      if (bonus < 0 || bonus > 10) {
-          throw new IllegalArgumentException("Bonus must be between 0 and 10");
-      }
-      
-      double basePay = salary - snacksAmount;
-      double bonusAmount = basePay * (bonus / 100.0);
-      return basePay + bonusAmount;
-      
+	public static Double pay(Double salary, Double snacksAmount, Integer bonus) {
+		// Check for null parameters
+        if (salary == null || snacksAmount == null || bonus == null) {
+            throw new IllegalArgumentException("Parameters cannot be null");
+        }
+        
+        // Check for negative values
+        if (salary < 0 || snacksAmount < 0 || bonus < 0) {
+            throw new IllegalArgumentException("Parameters cannot be negative");
+        }
+        
+        // Calculate net salary after snacks
+        double netSalary = salary - snacksAmount;
+        
+        // If net salary is negative or zero, return 0
+        if (netSalary <= 0) {
+            return 0.0;
+        }
+        
+        // Calculate final pay with bonus
+        return netSalary + (netSalary * bonus / 100.0);
+		//return (salary - snacksAmount) * bonus;
 	}
 }
